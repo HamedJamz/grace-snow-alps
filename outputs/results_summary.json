@@ -1,0 +1,122 @@
+{
+  "region_cells": 21,
+  "region_area_km2": 178797,
+  "months_compared": 258,
+  "first_month": "2002-04",
+  "last_month": "2026-08",
+  "annual_amplitude_mm": {
+    "tws_gfz": 57.8,
+    "tws_costg": 60.2,
+    "swe": 107.7,
+    "swe_smoothed_300km": 29.2,
+    "soil": 12.8,
+    "rest": 53.4
+  },
+  "annual_max_day_of_year": {
+    "tws_gfz": 74,
+    "tws_costg": 70,
+    "swe": 63,
+    "swe_smoothed_300km": 61,
+    "soil": 143,
+    "rest": 248
+  },
+  "trend_mm_per_yr": {
+    "tws_gfz": {
+      "trend": -7.67,
+      "err_formal": 0.35,
+      "err_ar1": 0.91,
+      "lag1_autocorr": 0.71
+    },
+    "tws_costg": {
+      "trend": -6.76,
+      "err_formal": 0.32,
+      "err_ar1": 1.06,
+      "lag1_autocorr": 0.8
+    },
+    "swe": {
+      "trend": -0.76,
+      "err_formal": 0.32,
+      "err_ar1": 1.02,
+      "lag1_autocorr": 0.78
+    },
+    "swe_smoothed_300km": {
+      "trend": -0.27,
+      "err_formal": 0.09,
+      "err_ar1": 0.27,
+      "lag1_autocorr": 0.77
+    },
+    "soil": {
+      "trend": 0.16,
+      "err_formal": 0.21,
+      "err_ar1": 0.46,
+      "lag1_autocorr": 0.64
+    },
+    "rest": {
+      "trend": -7.07,
+      "err_formal": 0.31,
+      "err_ar1": 0.78,
+      "lag1_autocorr": 0.69
+    }
+  },
+  "tws_gfz_trend_gt_per_yr": -1.37,
+  "tws_gfz_trend_err_ar1_gt_per_yr": 0.16,
+  "swe_to_tws_annual_amplitude_ratio": 1.86,
+  "smoothed_swe_to_tws_annual_amplitude_ratio": 0.51,
+  "smoothing_radius_km": 300.0,
+  "corr_tws_swe": 0.548,
+  "corr_tws_swe_plus_soil": 0.622,
+  "corr_gfz_costg": 0.981,
+  "rms_gfz_minus_costg_mm": 16.3,
+  "mean_regional_std_tws_mm": 22.4,
+  "rms_regional_leakage_mm": 74.8,
+  "zugspitze": {
+    "era5_point_used": [
+      47.39999999999998,
+      10.999999999999975
+    ],
+    "nearest_point_was_glacier": false,
+    "annual_amplitude_mm": {
+      "swe_point": 148.6,
+      "swe_1deg_cell": 130.9,
+      "tws_grace_1deg_cell": 50.8
+    }
+  },
+  "glacier_points_removed": 30,
+  "checks": [
+    {
+      "check": "ERA5-Land SWE is non-negative (up to float rounding)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Study region has at least 10 cells",
+      "passed": true,
+      "detail": "21 cells"
+    },
+    {
+      "check": "GRACE months handled: duplicates averaged, gaps kept as gaps",
+      "passed": true,
+      "detail": "35 missing months incl. 2017-07..2018-05 gap"
+    },
+    {
+      "check": "Two GRACE products agree (r > 0.9)",
+      "passed": true,
+      "detail": "r = 0.981, RMS diff = 16.3 mm"
+    },
+    {
+      "check": "SWE peak is in late winter / spring (Feb\u2013Apr)",
+      "passed": true,
+      "detail": "maximum in month 3"
+    },
+    {
+      "check": "1\u00b0 SWE cell value equals the mean of its 0.1\u00b0 source points",
+      "passed": true,
+      "detail": "233.66 mm"
+    },
+    {
+      "check": "Harmonic fit reproduces a synthetic annual signal",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

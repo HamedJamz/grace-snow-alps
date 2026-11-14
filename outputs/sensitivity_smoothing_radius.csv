@@ -1,0 +1,5 @@
+gaussian_radius_km,smoothed_swe_amp_mm,ratio_to_grace_tws
+150,57.44,0.99
+200,44.85,0.78
+300,29.17,0.51
+400,20.17,0.35

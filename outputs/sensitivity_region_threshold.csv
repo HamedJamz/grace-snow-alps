@@ -1,0 +1,4 @@
+swe_threshold_mm,cells,area_km2,tws_gfz_amp_mm,tws_costg_amp_mm,swe_amp_mm,swe_to_tws_ratio,tws_gfz_trend_mm_yr,tws_gfz_trend_err_ar1,tws_gfz_trend_gt_yr
+30,28,238954,59.46,61.0,83.33,1.4,-7.47,0.91,-1.78
+50,21,178797,57.75,60.17,107.7,1.86,-7.67,0.91,-1.37
+100,18,153522,57.33,60.4,121.53,2.12,-7.66,0.9,-1.18
