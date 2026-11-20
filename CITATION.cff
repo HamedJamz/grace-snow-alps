@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Snow-related mass variations in the Alps from GRACE/GRACE-FO: a reproducible comparison with ERA5-Land"
+type: software
+version: 0.1.0
+date-released: 2026-11-16
+authors:
+  - family-names: Jamalzehi
+    given-names: Hamed
+    affiliation: "Technische Universität Berlin"
+license: MIT
+repository-code: "https://github.com/HamedJamz/grace-snow-alps"
+keywords:
+  - satellite gravimetry
+  - GRACE
+  - GRACE-FO
+  - terrestrial water storage
+  - snow water equivalent
+  - ERA5-Land
+  - Alps

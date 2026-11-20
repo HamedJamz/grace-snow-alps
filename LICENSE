@@ -20,5 +20,3 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Note: this licence covers the code only. The data in data/raw keep their own licences
-(GravIS: CC BY 4.0; ERA5-Land: CC BY 4.0, Copernicus; Natural Earth: public domain).
